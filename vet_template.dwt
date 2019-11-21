@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Paws4U - Template</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../homework/css/petshop.css" rel="stylesheet" type="text/css">
+
+<!-- TemplateParam name="rightpanel" type="boolean" value="true" -->
+
+</head>
+
+<body>
+<div id="container">
+	
+	<header><img src="../images/paws4ulogo.gif" width="100%" height="150" alt="" />
+  
+<article>
+<nav>
+<ul>
+ <li><a href="../working/paws4uindex.html">HOME</a></li>
+  <li><a href="../working/paws4uaservices.html">SERVICES</a></li>
+  <li><a href="../working/paws4uadoptions.html">ADOPTIONS</a></li>
+  <li><a href="../working/paws4uaboutus.html">ABOUT US</a></li>
+  <li><a href="../working/paws4ufeedback.html">FEEDBACK</a></li>
+  
+</ul></nav></article>
+		
+	</header>
+	<aside><!-- TemplateBeginEditable name="right panel" -->right panel<!-- TemplateEndEditable --></aside>
+	<main><!-- TemplateBeginEditable name="maincontent" -->maincontent<!-- TemplateEndEditable --></main>
+  <footer> <a href="#">Home</a> | Contact Us | Feedback <br />Paws4U Copyright &copy; 2019</footer>
+</div>
+</body>
+</html>

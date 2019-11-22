@@ -1,3 +1,2 @@
-WebDev 3260 
-Sherry Shade
-Project
+# Vietnam Veterans Website
+## WebDev 3260 - Sherry Shade

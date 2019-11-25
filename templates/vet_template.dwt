@@ -8,7 +8,7 @@
 	<!-- TemplateEndEditable -->
 	<!-- TemplateBeginEditable name="head" -->
 	<!-- TemplateEndEditable -->
-	<link href="css/vet_css.css" rel="stylesheet" type="text/css">
+	<link href="../css/vet_css.css" rel="stylesheet" type="text/css">
 
 	<!-- TemplateParam name="rightpanel" type="boolean" value="true" -->
 </head>
@@ -16,22 +16,22 @@
 <body>
 <div id="container">
 	
-	<header><img id="logo" src="images/vet_logo.png" width="1002" height="151" alt="" />
+	<header><img id="logo" src="../images/vet_logo.png" width="1002" height="151" alt="" />
   
 		<article>
 			<nav>
 				<ul>
-					<li><a href="working/home.html">HOME</a></li>
-    				<li><a href="working/news.html">NEWS</a></li>
-    				<li><a href="working/events.html">EVENTS</a></li>
-    				<li><a href="working/community.html">COMMUNITY SERVICE</a></li>
-    				<li><a href="working/donate.html">DONATE</a></li>
-    				<li><a href="working/gallery.html">GALLERY</a></li>
-    				<li><a href="working/resources.html">RESOURCES</a></li>
-    				<li><a href="working/benefits.html">BENEFITS</a></li>
-    				<li><a href="working/planned.html">PLANNED SUPPORT</a></li>
-    				<li><a href="working/contact.html">CONTACT</a></li>
-    				<li><a href="working/about.html">ABOUT US</a></li>
+					<li><a href="../working/home.html">HOME</a></li>
+    				<li><a href="../working/news.html">NEWS</a></li>
+    				<li><a href="../working/events.html">EVENTS</a></li>
+    				<li><a href="../working/community.html">COMMUNITY SERVICE</a></li>
+    				<li><a href="../working/donate.html">DONATE</a></li>
+    				<li><a href="../working/gallery.html">GALLERY</a></li>
+    				<li><a href="../working/resources.html">RESOURCES</a></li>
+    				<li><a href="../working/benefits.html">BENEFITS</a></li>
+    				<li><a href="../working/planned.html">PLANNED SUPPORT</a></li>
+    				<li><a href="../working/contact.html">CONTACT</a></li>
+    				<li><a href="../working/about.html">ABOUT US</a></li>
 				</ul>
 			</nav>
 		</article>
@@ -46,7 +46,7 @@
 	</main>
 	
 	<footer> 
-		<a href="working/about.html">About Us</a> | <a href="working/contact.html">Contact Us</a> | <a href="working/feedback.html">Feedback</a>
+		<a href="../working/about.html">About Us</a> | <a href="../working/contact.html">Contact Us</a> | <a href="../working/feedback.html">Feedback</a>
 	</footer>
 </div>
 </body>

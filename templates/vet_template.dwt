@@ -14,32 +14,49 @@
 </head>
 
 <body>
+	
 <div id="container">
 	
-	<header><img id="logo" src="../images/vet_logo.png" width="100%" height="151" alt="Site Logo" />
-  
-		<article>
-			<nav>
-				<ul>
-					<li><a href="../working/home.html">HOME</a></li>
-    				<li><a href="../working/news.html">NEWS</a></li>
-    				<li><a href="../working/events.html">EVENTS</a></li>
-    				<li><a href="../working/community.html">COMMUNITY SERVICE</a></li>
-    				<li><a href="../working/donate.html">DONATE</a></li>
-    				<li><a href="../working/gallery.html">GALLERY</a></li>
-    				<li><a href="../working/resources.html">RESOURCES</a></li>
-    				<li><a href="../working/benefits.html">BENEFITS</a></li>
-    				<li><a href="../working/planned.html">PLANNED SUPPORT</a></li>
-    				<li><a href="../working/contact.html">CONTACT</a></li>
-    				<li><a href="../working/about.html">ABOUT US</a></li>
-				</ul>
-			</nav>
-		</article>
-	</header>
+	<header>
+		
+		<a href="../working/home.html">
+			<img src="../images/vet_logo.png" alt="" width="1022" height="154" id="logo" lt="Site Logo" />
+		</a>
+		
+				<div class="navbar">
+				  <a href="../working/home.html">Home</a>
+			
+				  <div class="dropdown">
+					<button class="dropbtn">Get Involved
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="../working/news.html">News</a>
+					  <a href="../working/events.html">Events</a>
+					  <a href="../working/community.html">Community Service</a>
+					  <a href="../working/resources.html">Resources</a>
+					  <a href="../working/planned.html">Planned Support</a>
+					</div>
+				  </div>
+					
+				<div class="dropdown">
+					<button class="dropbtn">Meet The Community
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="../working/about.html">About Us</a>
+					  <a href="../working/contact.html">Contact Us</a>
+					  <a href="../working/donate.html">Fund Us</a>
+					  <a href="../working/gallery.html">Gallery</a>
+					  <a href="../working/benefits.html">Benefits</a>
+					</div>
+				</div>
+	  </div>		
+  </header>
 	
-	<aside>
+	<right_panel>
 		<!-- TemplateBeginEditable name="right panel" -->right panel<!-- TemplateEndEditable -->
-	</aside>
+	</right_panel>
 	
 	<main>
 		<!-- TemplateBeginEditable name="maincontent" -->maincontent<!-- TemplateEndEditable -->
@@ -49,5 +66,6 @@
 		<a href="../working/about.html">About Us</a> | <a href="../working/contact.html">Contact Us</a> | <a href="../working/feedback.html">Feedback</a>
 	</footer>
 </div>
+	
 </body>
 </html>

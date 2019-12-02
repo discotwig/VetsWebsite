@@ -48,6 +48,21 @@ footer {
 	clear:both;
 }
 
+#title.gallary  {
+	text-align: center;
+}
+
+.gallary img {
+	width: 30%;
+	float: left;
+	margin: 1.65%;
+	transition:transform 0.25s ease;
+}
+
+.gallary > img:hover {
+    -webkit-transform:scale(1.8); /* or some other value */
+    transform:scale(1.8);
+}
 /*######################## Navbar container ########################*/
 
 .navbar {

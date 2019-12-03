@@ -18,11 +18,11 @@
 <div id="container">
 	
 	<header>
-		<img src="../images/american_flag.png" alt="american flag" id="flag" width="10%"/>
-		<img src="../images/vietnam_veterans_of_america_flag.png" alt="vietnam vet flag" id="vet flag" width="10%"/>
-		<img src="../images/vietnam_veterans_of_america_flag.webp" alt="vietman vet flag" id="vet flag" width="10%"
+		<img src="../images/american_flag.png" alt="american flag" class="head_images"/>
+		<img src="../images/vietnam_veterans_of_america_flag.png" alt="vietnam vet flag" class="head_images"/>
+		<img src="../images/vietnam_veterans_of_america_flag.webp" alt="vietman vet flag" class="head_images"/>
 		<a href="../working/home.html">
-			<img src="../images/vet_logo.png" alt="logo" id="logo" lt="Site Logo" width="10%"/>
+			<img src="../images/vet_logo.png" alt="logo" id="logo" lt="Site Logo"/>
 		</a>
 		
 		<div class="navbar">

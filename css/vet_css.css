@@ -11,6 +11,8 @@
 
 .head_images {
 	width: 10%;
+	height: auto;
+	border: 1px solid red;
 }
 
 #logo {
@@ -18,6 +20,7 @@
 	margin-bottom: 20px;
 	width: 70%;
 	height: auto;
+	border: 1px solid red;
 }
 
 header {
@@ -43,7 +46,7 @@ main {
 	width: 70%;
 	margin: 30px 0 30px 20px;
 	color:#000000;
-	border: 2px solid #306328;
+	border: 1px solid #306328;
 	padding: 14px 16px;
 }
 
@@ -51,6 +54,8 @@ footer {
 	text-align:center;
 	text-size:.75em;
 	clear:both;
+	border: 1px solid #306328;
+	width: 100%;
 }
 
 #title.gallery  {
@@ -106,7 +111,8 @@ footer {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+    background-color: red;
+    font-family: inherit;
 }
 
 /* Dropdown content (hidden by default) */

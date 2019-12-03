@@ -58,18 +58,18 @@ footer {
 	width: auto;
 }
 
-#title.gallery  {
+gallery h1, h3 {
 	text-align: center;
 }
 
-.gallery img {
+gallery img {
 	width: 30%;
 	float: left;
 	margin: 1.65%;
 	transition:transform 0.25s ease;
 }
 
-.gallery > img:hover {
+gallery > img:hover {
     -webkit-transform:scale(1.8); /* or some other value */
     transform:scale(1.8);
 }

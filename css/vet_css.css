@@ -7,12 +7,13 @@
 	margin: auto;
 	width:90%;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 18px;
 }
 
 .head_images {
 	width: 10%;
 	height: auto;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
 #logo {
@@ -20,7 +21,7 @@
 	margin-bottom: 20px;
 	width: 70%;
 	height: auto;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
 header {
@@ -36,7 +37,7 @@ right_panel {
 	width:16%;
 	margin: 1%;
 	color:#000000;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	padding: 14px 16px;
 }
 
@@ -45,7 +46,7 @@ main {
 	width: 70%;
 	margin: 1%;
 	color:#000000;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	padding: 14px 16px;
 }
 
@@ -53,17 +54,24 @@ footer {
 	text-align:center;
 	text-size:.75em;
 	clear:both;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	margin: 1%;
 	width: auto;
 }
 
-gallery h1, h3 {
+gallery h3 {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+h1 {
 	text-align: center;
 }
 
 gallery img {
 	width: 30%;
+	height: auto;
 	float: left;
 	margin: 1.65%;
 	transition:transform 0.25s ease;
@@ -72,6 +80,12 @@ gallery img {
 gallery > img:hover {
     -webkit-transform:scale(1.8); /* or some other value */
     transform:scale(1.8);
+}
+
+#benefit_pic {
+	width: 100%;
+	height: auto;
+	margin-top: 20%;
 }
 /*######################## Navbar container ########################*/
 
@@ -84,7 +98,7 @@ gallery > img:hover {
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 50px;
@@ -99,7 +113,7 @@ gallery > img:hover {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -144,3 +158,54 @@ gallery > img:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#table_head {
+	text-align: center;
+}
+
+panel_pics img {
+	width: 100%;
+	height:auto;
+	margin-top: 5%;
+}
+
+#meeting {
+	width:100%;
+}
+  
+#meeting, #meeting th, #meeting td  {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#meeting th, #meeting td {
+  padding: 15px;
+  text-align: left;
+}
+
+#meeting tbody th:nth-child(1) {
+	background-color: #1E90FF;
+  }
+
+#meeting tbody th:nth-child(2) {
+	background-color: #B22234;
+  }
+
+#meeting tbody th:nth-child(3) {
+  background-color: #B22234;
+}
+
+#meeting tbody tr:nth-child(odd) {
+ background-color: #B22234;
+}
+
+#meeting thead th{
+  background-color: #1E90FF;
+  color: #000000;
+}
+
+#meeting th:nth-child(1) {
+	color:#ffffff;
+}
+
+

@@ -13,7 +13,7 @@
 .head_images {
 	width: 10%;
 	height: auto;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
 #logo {
@@ -21,7 +21,7 @@
 	margin-bottom: 20px;
 	width: 70%;
 	height: auto;
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 }
 
 header {
@@ -37,7 +37,7 @@ right_panel {
 	width:16%;
 	margin: 1%;
 	color:#000000;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	padding: 14px 16px;
 }
 
@@ -46,7 +46,7 @@ main {
 	width: 70%;
 	margin: 1%;
 	color:#000000;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	padding: 14px 16px;
 }
 
@@ -54,7 +54,7 @@ footer {
 	text-align:center;
 	text-size:.75em;
 	clear:both;
-	border: 1px solid #306328;
+/*	border: 1px solid #306328;*/
 	margin: 1%;
 	width: auto;
 }

@@ -58,7 +58,11 @@ footer {
 	width: auto;
 }
 
-gallery h1, h3 {
+gallery h1, gallery h3 {
+	text-align: center;
+}
+
+h1 {
 	text-align: center;
 }
 
@@ -72,6 +76,12 @@ gallery img {
 gallery > img:hover {
     -webkit-transform:scale(1.8); /* or some other value */
     transform:scale(1.8);
+}
+
+#benefit_pic {
+	width: 100%;
+	height: auto;
+	margin-top: 20%;
 }
 /*######################## Navbar container ########################*/
 
@@ -143,4 +153,14 @@ gallery > img:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#table_head {
+	text-align: center;
+}
+
+community_pics img {
+	width: 100%;
+	height:auto;
+	margin-top: 5%;
 }

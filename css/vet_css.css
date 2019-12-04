@@ -196,4 +196,13 @@ panel_pics img {
   color: white;
 }
 
+.us {
+	width: 40%;
+	height: auto;
+}
 
+#credits tr td {
+	margin: 2%;
+	padding: 2%;
+	text-align: left;
+}

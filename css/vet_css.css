@@ -25,7 +25,7 @@
 
 header {
 		background-color:#ffffff;
-		padding: 20px;
+		margin: 1%;
 		text-align:center;
 		height:auto;
 }
@@ -34,7 +34,7 @@ header {
 right_panel {
 	float:right;
 	width:16%;
-	margin: 20px;
+	margin: 1%;
 	color:#000000;
 	border: 1px solid #306328;
 	padding: 14px 16px;
@@ -43,7 +43,7 @@ right_panel {
 main {
 	float: left;
 	width: 70%;
-	margin: 20px;
+	margin: 1%;
 	color:#000000;
 	border: 1px solid #306328;
 	padding: 14px 16px;
@@ -54,22 +54,22 @@ footer {
 	text-size:.75em;
 	clear:both;
 	border: 1px solid #306328;
-	margin: 20px;
+	margin: 1%;
 	width: auto;
 }
 
-#title.gallery  {
+gallery h1, h3 {
 	text-align: center;
 }
 
-.gallery img {
+gallery img {
 	width: 30%;
 	float: left;
 	margin: 1.65%;
 	transition:transform 0.25s ease;
 }
 
-.gallery > img:hover {
+gallery > img:hover {
     -webkit-transform:scale(1.8); /* or some other value */
     transform:scale(1.8);
 }

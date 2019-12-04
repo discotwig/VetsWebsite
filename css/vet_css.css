@@ -59,8 +59,10 @@ footer {
 	width: auto;
 }
 
-gallery h1, gallery h3 {
+gallery h3 {
+	width: 100%;
 	text-align: center;
+	float: left;
 }
 
 h1 {
@@ -69,6 +71,7 @@ h1 {
 
 gallery img {
 	width: 30%;
+	height: auto;
 	float: left;
 	margin: 1.65%;
 	transition:transform 0.25s ease;

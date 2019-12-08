@@ -183,8 +183,16 @@ panel_pics img {
   text-align: left;
 }
 
-#meeting tbody th:nth-child(even) {
-  background-color: #FFFFFF;
+#meeting tbody th:nth-child(1) {
+	background-color: #1E90FF;
+  }
+
+#meeting tbody th:nth-child(2) {
+	background-color: #B22234;
+  }
+
+#meeting tbody th:nth-child(3) {
+  background-color: #B22234;
 }
 
 #meeting tbody tr:nth-child(odd) {
@@ -192,8 +200,12 @@ panel_pics img {
 }
 
 #meeting thead th{
-  background-color: dodgerblue;
-  color: white;
+  background-color: #1E90FF;
+  color: #000000;
+}
+
+#meeting th:nth-child(1) {
+	color:#ffffff;
 }
 
 .us {
